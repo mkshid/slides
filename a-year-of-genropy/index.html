@@ -1,0 +1,520 @@
+<html>
+    <head>
+      <meta charset="utf-8">
+
+      <title>A year of Genropy</title>
+      <meta name="author" content="Muhammad Hassan Khurshid">
+
+      <meta name="apple-mobile-web-app-capable" content="yes">
+      <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+      <link rel="stylesheet" href="css/reveal.css">
+	    <link rel="stylesheet" href="css/theme/white.css">
+      <link rel="stylesheet" href="lib/css/zenburn.css">
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+    </head>
+    <body>
+	<div class="reveal">
+	    <div class="slides">
+
+    <!-- First slide  -->
+		<section>
+      <h1>A year of Genropy</h1>
+			<p>
+				<small>by <a href="http://mkshid.com/about">Muhammad Hassan Khurshid (mkshid@gmail.com)</a> </small>
+			</p>
+    </section>
+
+		<section>
+      <h1>Hi!</h1>
+      <aside class="notes">
+        Just a Hi!
+	   </aside>
+    </section>
+
+		<section>
+      <h3>Okay... what is this talk about? </h3>
+      <small>Hint: Genropy</small>
+
+      <aside class="notes">
+        Yeah Genropy… do you ever try to Transpose the word genropy? Well i did it right after i submit the talk, and the result was not a great one…. i will show in
+        the most pythonic i know.
+	   </aside>
+    </section>
+
+    <section>
+      <section>
+        <h2>Ok.. Genropy.. how many of you know what Genropy is?</h2>
+      </section>
+
+      <section >
+        <h2>A web framework?</h2>
+        <p class="fragment">A web framework (WF) or web application framework (WAF) is a software framework
+          that is designed to support the development of web applications including
+          web services, web resources, and web APIs. (wikipedia)</p>
+      </section>
+
+      <section >
+        <h2>So.. what is web?</h2>
+        <p class="fragment">
+          The World Wide Web (abbreviated WWW or the Web) is an information space
+          where documents and other web resources are identified by Uniform Resource Locators (URLs),
+          interlinked by hypertext links, and can be accessed via the Internet.
+        </p>
+      </section>
+
+      <section>
+        <h2 >So..What is a Computer???</h2>
+        <h2 class="fragment">then... </h2>
+        <h2 class="fragment">who am i</h2>
+        <aside class="notes">
+          All this just to present my self and achieving time.
+        </aside>
+      </section>
+    </section>
+
+    <section>
+
+      <section>
+          <h2>Whoami</h2>
+          <div class="fragment">
+            <p>
+               My name is <b>Muhammad Hassan Khurshid</b>, a human, born in <b>Pakistan</b> ,
+               I moved to <b>Florence</b>  at age of 10 and grew up in this beautiful city from then.
+            </p>
+            <p>Now I am working at <b>Frigel</b>  as a developer.</p>
+          </div>
+
+      </section>
+
+      <section>
+        <h2>What is Frigel?</h2>
+        <p class="fragment">Frigel is a multinational company, located in Florence that creates and sells industrial cooling systems.</p>
+
+
+        <aside class="notes">
+          So it not a software house, our is a small team of few people.
+          everyone is working on different projects and i am doing web development.
+
+          Well know you all know who i am and what this talk is about. right?
+          Or i should restart from What Genropy is? Well anyway Genropy as i said
+          before genropy is web framework developed from an Italian team/family over
+          there and it is pretty good even if it unkown.
+        </aside>
+      </section>
+
+  </section>
+
+
+  <section>
+
+    <section>
+      <h2>For how long did I use Genropy?</h2>
+        <p class="fragment">More then a year</p>
+      <h2 class="fragment">What did i use Genropy for...?</h2>
+    </section>
+
+    <section>
+      <p >I used Genropy for three projects: </p>
+      <ul>
+        <li class="fragment">OneClick</li>
+        <li class="fragment">Genrello</li>
+        <li class="fragment">Blackbox</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>What is OneClick?</h2>
+      <p class="fragment">
+        OneClick is a web platform that performs data analysis of energy and does a lot of other stuff.
+      </p>
+      <p class="fragment">
+        But unfortunately I did not get the permission to show it publicly
+      </p>
+
+      <aside class="notes">
+        It is the project that I worked on for a year.
+        I am so sorry about that but does matter i will present show you something of genrello.
+      </aside>
+    </section>
+
+    <section>
+      <h3>My first reaction once they told me to use Genropy for OneClick</h3>
+      <img class="fragment" src="img/are-you-kidding-me.png">
+    </section>
+
+    <section>
+      <h3>Why that reaction?</h3>
+      <ul>
+        <li class="fragment">
+          At first glance it does not look like the right framework
+          to develop an attractive web platform.
+          But it looks good to create an application like CRM and ERP
+        </li>
+        <li class="fragment">There were not any examples of similar application in Genropy</li>
+        <li class="fragment">The last framework I used before Genropy was Django</li>
+      </ul>
+
+      <aside class="notes">
+        Django probably is one of the best documented web framework for python
+        at other hand i have genropy which almost did have any documentation when i started.
+      </aside>
+
+    </section>
+
+    <section>
+      <h2>Main difficulties developing OneClick</h2>
+      <ul>
+        <li class="fragment">Lack of documentation</li>
+        <li class="fragment">Integration of a Charting library (like Highcharts etc)</li>
+        <li class="fragment">Single Page Application</li>
+        <li class="fragment">Routing</li>
+        <li class="fragment">Make it cool (css)</li>
+        <li class="fragment">Magic stuff</li>
+      </ul>
+
+      <aside class="notes">
+        - single page application => a diffrent way of thinking.
+        But all these difficulties has been overcome over time gathering experience with the framework.
+        As i said before they did not give the permission to show anything of OneClick,
+        so i can not show you anything about that but i created another platform as side project which i can show
+        and talk about and that is Genrello.
+      </aside>
+
+    </section>
+
+  </section>
+
+  <section>
+    <section>
+      <h2>What is Genrello?	</h2>
+      <p class="fragment">How many people here know what Trello is?</p>
+      <b class="fragment">Genropy + Trello = Genrello</b>
+
+      <aside class="notes">
+        Trello is really a cool webapp that help you organize work and manage different pipelines of work.
+        From when i start using it i love it.
+
+        Show genrello!
+      </aside>
+
+    </section>
+
+    <section>
+      <h3>How to create a Genropy project</h3>
+      <pre class="fragment"><code class="hljs" data-trim contenteditable style="text-align:center;">
+gnrmkproject app -P base -a
+      </code></pre>
+
+    </section>
+
+    <section>
+      <h3>Structure of a Genropy project</h3>
+      <img class="fragment" src="img/starting_dir.png">
+    </section>
+
+    <section>
+      <h3>Genrello models</h3>
+      <p class="fragment">Genrello is based on a really simple db model, that consists just of few tables:</p>
+      <ul>
+        <li class="fragment">Team</li>
+        <li class="fragment">Board</li>
+        <li class="fragment">List</li>
+        <li class="fragment">Card</li>
+        <li class="fragment">Comment</li>
+      </ul>
+    </section>
+
+    <section>
+      <h3>Let's examine one of the model</h3>
+      <pre class="fragment"><code class="hljs" data-trim contenteditable style="font-size: 20px;">
+class Table(object):
+
+    def config_db(self, pkg):
+        tbl = pkg.table('board', pkey='id', name_long='!!Board',
+                        name_plural='!!Boards', caption_field='name')
+        self.sysFields(tbl)
+
+        tbl.column('name', name_short='Name',
+                   validate_notnull=True, validate_case='c',
+                   validate_notnull_error='!!Mandatory field')
+
+        tbl.column('description', name_long='!!Description')
+        tbl.column('position', dtype='I', name_long='!!Position')
+
+        tbl.column(
+            'team_id', size='22', group='_',
+            name_long='!!Team id'
+            ).relation(
+                'team.id', relation_name='board_team',
+                mode='foreignkey', onDelete='cascade'
+            )
+
+        tbl.column(
+            'owner_user_id', size='22', group='_',
+            name_long='!!Owner'
+            ).relation(
+                'adm.user.id', relation_name='board_user',
+                mode='foreignkey', onDelete='cascade'
+            )
+        tbl.aliasColumn(
+            'username',
+            relation_path='@owner_user_id.username',
+            name_long='!!Username'
+        )
+
+        tbl.aliasColumn('team_name',
+                        relation_path='@team_id.name',
+                        name_long='!!Team name')
+
+      </code></pre>
+
+    </section>
+
+
+    <section>
+      <h5>Mixin</h5>
+      <pre><code class="hljs" data-trim contenteditable >
+class Table(object):
+
+    def config_db(self, pkg):
+      </pre></code>
+
+      <aside class="notes">
+        if you notice the class Table(object) is only inheriting from object,
+        that’s because Genropy use mixin for models,
+        so you can override everything like the function config_db(self, pkg).
+      </aside>
+
+    </section>
+
+    <section>
+      <h5>table</h5>
+      <pre><code class="hljs" data-trim contenteditable >
+        tbl = pkg.table('board', pkey='id', name_long='!!Board',
+                        name_plural='!!Boards', caption_field='name')
+      </pre></code>
+
+      <aside class="notes">
+define the name of table and other stuff like caption_field
+which shows the referring field instead of pkey.
+      </aside>
+    </section>
+
+    <section>
+      <h5>System method</h5>
+      <pre><code class="hljs" data-trim contenteditable >
+        self.sysFields(tbl)
+      </pre></code>
+
+      <aside class="notes">
+        Needs to genropy to add default columns
+        __ins_ts
+        __mod_ts
+        __del_ts
+      </aside>
+    </section>
+
+    <section>
+      <h5>column</h5>
+      <pre><code class="hljs" data-trim contenteditable >
+tbl.column('name', name_short='Name',
+           validate_notnull=True, validate_case='c',
+           validate_notnull_error='!!Mandatory field')
+      </pre></code>
+
+      <aside class="notes">
+        pretty straight forward isn’t it? it ask the name as
+        first param (that could be enough). name_short and name_long
+        are used from genropy for the frametable.
+        This column has some validation in this case, one check that this column
+        can not be null and the other one that is case sensitive.
+      </aside>
+    </section>
+
+
+    <section>
+      <h5>foreignkey</h5>
+      <pre><code class="hljs" data-trim contenteditable >
+tbl.column(
+   'team_id', size='22', group='_',
+   name_long='!!Team id'
+).relation(
+   'team.id', relation_name='board_team',
+    mode='foreignkey', onDelete='cascade'
+)
+      </pre></code>
+
+      <aside class="notes">
+        And that how a foreign key is defined
+      </aside>
+    </section>
+
+    <section>
+      <h5>aliasColumn</h5>
+      <pre><code class="hljs" data-trim contenteditable >
+        tbl.aliasColumn('team_name',
+                        relation_path='@team_id.name',
+                        name_long='!!Team name')
+        </pre></code>
+
+      <aside class="notes">
+        And there are aliasColumn which are actually columns fetch only once requested
+      </aside>
+    </section>
+
+    <section>
+      <h4>Once models are defined</h4>
+
+      <pre class="fragment"><code class="hljs" data-trim contenteditable >
+      gnrdbsetup instanceName
+        </pre></code>
+
+        <pre class="fragment"><code class="hljs" data-trim contenteditable >
+      gnrmkthresource projectName:packageName.tableName
+          </pre></code>
+    <aside class="notes">
+      - First command: reflects the desired models on the database.
+      - Second command: Generates code to create a Frametable for each model
+    </aside>
+
+    </section>
+
+    <section>
+      <h2>What is Frametable?</h2>
+      <p class="fragment">Frametable is a core component of Genropy,
+        that let you CRUD on the table and more!</p>
+      <aside class="notes">
+        For creating the tables on the db (like postgres) you have to
+        launch the command “gnrdbsetup genrello”
+
+        Once defined the models you can automatically generate a view,
+        which is called frametable, that is really powerful and perfect
+        of application like crm and erp. it let you create and delete records,
+        search records, export and a lot of other stuff..
+
+        Once you have done with db in order to create something like genrello
+        you have to do a lot of magic with javascript.
+        The strategy i used is the one i think you used even from a lot of
+        other new stack (like react). i used python part just for the CRUD
+        creating some internal api through and everything else has been done in js.
+
+      </aside>
+    </section>
+
+    <section>
+        <h4>Creating internal api in Genropy</h4>
+        <pre><code class="hljs" data-trim contenteditable >
+          def main_page(self, pane):
+              pane.dataRpc('^.welcome', self.myfunc, name='^.name')
+              pane.div('^.welcome')
+
+          @public_method
+          def myfunc(self, name):
+              return "Hello {}".format(name)
+        </pre></code>
+
+    </section>
+
+  </section>
+
+  <section>
+    <section>
+      <h2>Let’s do a SWOT analysis on Genropy</h2>
+      <img class="fragment" src="img/swot.png" style="border:none;">
+    </section>
+
+    <section>
+        <h3>What makes Genropy good? Why should you try it? (Strengths)</h3>
+        <ul>
+          <li class="fragment">It is relatively fast to start</li>
+          <li class="fragment">You are the <b>only</b> developer and you need to develop the app <b>fast</b>.</li>
+          <li class="fragment">If your application is similiar to a <b>CRM</b> or an <b>ERP</b> then you must use it.
+                               It is <b>tailor made</b> for applications like that. (Checkout others talk about Genropy)
+          </li>
+          <li class="fragment">You can almost use only python depending on the type of application</li>
+        </ul>
+    </section>
+
+    <section>
+
+      <h2>It is not all gold that shines.. (Weaknesses)</h2>
+      <ul>
+        <li class="fragment">It is still in python 2.7.9 </li>
+        <li class="fragment">Incomplete documentation (but has improved a lot since I started).</li>
+        <li class="fragment">Lack of tests</li>
+      </ul>
+
+      <aside class="notes">
+        For me personally not having a documentation helps me a lot as developer,
+        it create in myself an habit to just go on to the source code and understand what is going on there.
+        So it's a Partial weakness according to me.
+      </aside>
+    </section>
+
+    <section>
+      <h2>Opportunities</h2>
+        <ul>
+          <li class="fragment">You can be part of this project</li>
+          <li class="fragment">It is developed from an Italian team, so for people that are not so fluent
+                               with English that could be a great incentive.</li>
+          <li class="fragment">As a part of a small community (for now) you will get a great <b>help</b> from a
+                               really <b>active community</b> especially from the founders.</li>
+          <li class="fragment">Learn something new</li>
+        </ul>
+
+    </section>
+
+    <section>
+      <h2>Threats</h2>
+      <ul>
+        <li class="fragment">You may fall in love with Genropy and use it everywhere and become a fanatic</li>
+      </ul>
+      <img class="fragment" src="img/watching-you.jpg">
+    </section>
+
+    <aside class="notes">
+      That's all i have for you!
+    </aside>
+
+  </section>
+
+  <section>
+    <h1>Bye!</h1>
+  </section>
+
+
+    </div>
+	</div>
+  <script src="lib/js/head.min.js"></script>
+	<script src="js/reveal.js"></script>
+	<script>
+  // More info https://github.com/hakimel/reveal.js#configuration
+  Reveal.initialize({
+    controls: true,
+    progress: true,
+    history: true,
+    center: true,
+
+    transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+    // More info https://github.com/hakimel/reveal.js#dependencies
+    dependencies: [
+      { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+      { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+      { src: 'plugin/zoom-js/zoom.js', async: true },
+      { src: 'plugin/notes/notes.js', async: true }
+    ]
+  });
+  	</script>
+    </body>
+</html>
