@@ -1,3 +1,3 @@
 # A year of Genropy
 
-@ pyconit8, 7 April 2017.
+@ Pycon Otto, 7 April 2017.
