@@ -171,7 +171,7 @@
       <h2>Main difficulties developing OneClick</h2>
       <ul>
         <li class="fragment">Lack of documentation</li>
-        <li class="fragment">Integration of a Charting library (like Highcharts etc)</li>
+        <li class="fragment">Integration of a charting library (like Highcharts etc)</li>
         <li class="fragment">Single Page Application</li>
         <li class="fragment">Routing</li>
         <li class="fragment">Make it cool (css)</li>
@@ -410,9 +410,10 @@ tbl.column(
     <section>
         <h4>Creating internal api in Genropy</h4>
         <pre><code class="hljs" data-trim contenteditable >
-          def main_page(self, pane):
-              pane.dataRpc('^.welcome', self.myfunc, name='^.name')
-              pane.div('^.welcome')
+            def main_page(self, pane):
+              pane.textBox(value='^name', lbl='!!Name')
+              pane.dataRpc('welcome', self.myfunc, name='^name')
+              pane.div('^welcome')
 
           @public_method
           def myfunc(self, name):
