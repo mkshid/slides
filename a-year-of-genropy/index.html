@@ -410,14 +410,14 @@ tbl.column(
     <section>
         <h4>Creating internal api in Genropy</h4>
         <pre><code class="hljs" data-trim contenteditable >
-            def main_page(self, pane):
-              pane.textBox(value='^name', lbl='!!Name')
-              pane.dataRpc('welcome', self.myfunc, name='^name')
-              pane.div('^welcome')
+def main_page(self, pane):
+    pane.textBox(value='^name', lbl='!!Name')
+    pane.dataRpc('welcome', self.myfunc, name='^name')
+    pane.div('^welcome')
 
-          @public_method
-          def myfunc(self, name):
-              return "Hello {}".format(name)
+@public_method
+def myfunc(self, name):
+    return "Hello {}".format(name)
         </pre></code>
 
     </section>
